@@ -3,10 +3,16 @@ import React from 'react'
 // import hero data
 import {heroData} from '../data';
 
+// import components
+import Header from '../components/Header';
+
 const Hero = () => {
     // Destructure hero data
     const {title, subtitle, btnText, image} = heroData;
     return (<section className='lg:h-[900px] py-12'>
+
+        <Header></Header>
+
         <div className='container mx-auto h-full relative'>
             <div className='flex flex-col xl:flex-row items-center h-full md:py-24'>
                 {/* Text */}

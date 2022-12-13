@@ -1,7 +1,11 @@
 import React from 'react'
 
-export const Nav = () => {
+const Nav = () => {
     return (
-        <div>Nav</div>
-    )
-}
+        <nav>
+            Nav
+        </nav>
+    );
+};
+
+export default Nav;

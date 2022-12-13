@@ -14,6 +14,7 @@ import Feature2BgImg from '../src/assets/img/features/feature2_bg.png';
 import Feature3BgImg from '../src/assets/img/features/feature3_bg.png';
 import Feature4BgImg from '../src/assets/img/features/feature4_bg.png';
 
+// TODO: Change these to something specific for us!
 export const heroData = {
     title: `Order Products Faster Easier`,
     subtitle:

@@ -1,7 +1,11 @@
 import React from 'react'
 
-export const NavMobile = () => {
+const NavMobile = () => {
     return (
-        <div>NavMobile</div>
-    )
-}
+        <nav>
+            NavMobile
+        </nav>
+    );
+};
+
+export default NavMobile;
