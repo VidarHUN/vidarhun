@@ -1,7 +1,14 @@
 import React from 'react'
 
-export const About = () => {
+//import about data
+import {aboutData} from '../data';
+
+const About = () => {
     return (
-        <div>About</div>
-    )
-}
+        <section>
+            About
+        </section>
+    );
+};
+
+export default About;
