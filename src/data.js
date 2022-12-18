@@ -91,4 +91,31 @@ export const featuresData = {
         delay: '1300',
       },
     ],
-  };
+};
+
+export const testimonialsData = [
+    {
+      image: Avatar1Img,
+      name: 'Serena',
+      web: 'rena.com',
+      message:
+        'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
+      delay: '300',
+    },
+    {
+      image: Avatar2Img,
+      name: 'Natalia',
+      web: 'nataliya.com',
+      message:
+        'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
+      delay: '600',
+    },
+    {
+      image: Avatar3Img,
+      name: 'Vebin',
+      web: 'vebin.com',
+      message:
+        'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
+      delay: '900',
+    },
+];

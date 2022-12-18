@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const CtaSection = () => {
+const CtaSection = () => {
     return (
         <div>CtaSection</div>
-    )
-}
+    );
+};
+
+export default CtaSection;
