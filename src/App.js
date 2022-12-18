@@ -26,6 +26,7 @@ const App = () => {
     <Features></Features>
     <Testimonials></Testimonials>
     <CtaSection></CtaSection>
+    <Footer></Footer>
   </div>
 };
 
