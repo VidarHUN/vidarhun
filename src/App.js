@@ -23,6 +23,8 @@ const App = () => {
   return <div className="overflow-hidden">
     <Hero></Hero>
     <About></About>
+    <Features></Features>
+    <Testimonials></Testimonials>
   </div>
 };
 
