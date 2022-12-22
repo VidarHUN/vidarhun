@@ -7,7 +7,7 @@ const About = () => {
     // About data content
     const {image, title, subtitle} = aboutData;
     return (
-        <section className='my-[30px] xl:mt-[100px]'
+        <section className='my-[30px] xl:mt-[100px]' id='about'
         // data-aos='fade-up'
         // data-aos-offset='350'
         >

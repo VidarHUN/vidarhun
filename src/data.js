@@ -20,20 +20,20 @@ import Feature4BgImg from '../src/assets/img/features/feature4_bg.png';
 
 export const navigationData = [
     {
-        name: 'Deliver',
-        href: '#',
+        name: 'STUNner',
+        href: '#stunner',
+    },
+    {
+        name: 'Testimonials',
+        href: '#testimonials',
     },
     {
         name: 'About',
-        href: '#',
+        href: '#about',
     },
     {
-        name: 'Features',
-        href: '#',
-    },
-    {
-        name: 'Signup',
-        href: '#',
+        name: 'Members',
+        href: '#members',
     },
 ]
 
@@ -46,11 +46,8 @@ export const heroData = {
     image: HeroImage,
 };
 
-export const aboutData = {
-    image: AboutImg,
-    title: 'Find Out A Little More About Us',
-    subtitle:
-        'We are a company dedicated to the distribution of products by delivery to your home or to the place where you are, with the best quality of delivery.',
+export const stunnerData = {
+
 };
 
 export const featuresData = {
@@ -123,6 +120,17 @@ export const testimonialsData = [
       delay: '900',
     },
 ];
+
+export const aboutData = {
+  image: AboutImg,
+  title: 'Find Out A Little More About Us',
+  subtitle:
+      'We are a company dedicated to the distribution of products by delivery to your home or to the place where you are, with the best quality of delivery.',
+};
+
+export const membersData = {
+
+};
 
 export const ctaData = {
     title: 'Contact Us From Here',

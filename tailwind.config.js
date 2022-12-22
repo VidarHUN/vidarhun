@@ -22,11 +22,11 @@ module.exports = {
         primary: '#212353',
         secondary: '#4B5D68',
         accent: {
-          primary: '#9C69E2',
-          primary_hover: '#9059DB',
-          secondary: '#F063B8',
-          secondary_hover: '#E350A9',
-          tertiary: '#68C9BA',
+          primary: '#3b82f6',
+          primary_hover: '#2563eb',
+          secondary: '#0ea5e9',
+          secondary_hover: '#0284c7',
+          tertiary: '#a855f7',
         }
       },
     },
