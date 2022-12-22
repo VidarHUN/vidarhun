@@ -1,3 +1,7 @@
+// import icons
+import { FaYoutube, FaInstagram, FaGithub } from 'react-icons/fa';
+import { BsChatDotsFill } from 'react-icons/bs';
+
 // import images
 import AboutImg from '../src/assets/img/about.png';
 import Feature1Img from '../src/assets/img/features/feature1.png';
@@ -187,3 +191,8 @@ export const footerData = {
       },
     ],
   };
+
+export const copyrightData = {
+  text: '© Product Texas, 2022. All rights reserved. Company Registration Number: 09833888.',
+  icon: <BsChatDotsFill />,
+};

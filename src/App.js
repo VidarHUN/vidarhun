@@ -20,14 +20,14 @@ const App = () => {
     offset: 0
   })
 
-  return <div className="overflow-hidden">
+  return (<div className="overflow-hidden">
     <Hero></Hero>
     <About></About>
     <Features></Features>
     <Testimonials></Testimonials>
     <CtaSection></CtaSection>
     <Footer></Footer>
-  </div>
+  </div>);
 };
 
 export default App;
