@@ -19,23 +19,23 @@ const Hero = () => {
             {/* title */}
             <h1
               className='h1 xl:max-w-[700px] mb-6 xl:mb-12'
-              data-aos='fade-down'
-              data-aos-delay='400'
+              // data-aos='fade-down'
+              // data-aos-delay='400'
             >
               {title}
             </h1>
             {/* subtitle */}
             <p
               className='lead xl:max-w-[380px] mb-6 lg:mb-12'
-              data-aos='fade-down'
-              data-aos-delay='500'
+              // data-aos='fade-down'
+              // data-aos-delay='500'
             >
               {subtitle}
             </p>
             <button
               className='btn btn-primary mb-8 xl:mb-0'
-              data-aos='fade-down'
-              data-aos-delay='600'
+              // data-aos='fade-down'
+              // data-aos-delay='600'
             >
               {btnText}
             </button>
@@ -43,8 +43,8 @@ const Hero = () => {
           {/* image */}
           <div
             className='xl:absolute xl:-right-12 xl:bottom-16'
-            data-aos='fade-up'
-            data-aos-delay='700'
+            // data-aos='fade-up'
+            // data-aos-delay='700'
           >
             <img src={image} alt='' />
           </div>
