@@ -18,7 +18,7 @@ const Features = () => {
                     // data-aos='fade-down'
                     // data-aos-delay='100'
                     >{title}</h2>
-                    <p className='lead max-w-[585px] mx-auto mb-16 xl:mb-24'
+                    <p className='lead max-w-[685px] mx-auto mb-16 xl:mb-24'
                     // data-aos='fade-down'
                     // data-aos-delay='200'
                     >

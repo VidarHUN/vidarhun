@@ -13,6 +13,7 @@ import Avatar2Img from '../src/assets/img/testimonials/avatar2.png';
 import Avatar3Img from '../src/assets/img/testimonials/avatar3.png';
 import LogoV2 from '../src/assets/img/logo-v2.png';
 import HeroImage from '../src/assets/img/hero-img.png';
+import StunnerImage from '../src/assets/img/stunner.png';
 import Feature1BgImg from '../src/assets/img/features/feature1_bg.png';
 import Feature2BgImg from '../src/assets/img/features/feature2_bg.png';
 import Feature3BgImg from '../src/assets/img/features/feature3_bg.png';
@@ -39,21 +40,23 @@ export const navigationData = [
 
 // TODO: Change these to something specific for us!
 export const heroData = {
-    title: `Order Products Faster Easier`,
+    title: `Migrate WebRTC backend services to Kubernetes`,
     subtitle:
-        'Order your favorite foods at any time and we will deliver them right to where you are.',
-    btnText: 'Get Started',
+        'Deploy a containerized WebRTC infrastructure into Kubernetes and benefit from the unmatched lifecycle management features',
+    btnText: 'Learn more',
     image: HeroImage,
 };
 
 export const stunnerData = {
-
+  title: 'STUNner: A Kubernetes media gateway for WebRTC',
+  subtitle: 'STUNner aims to change the typical Kubernetes HTTP/TCP Web workload design to handle WebRTC media by exposing a single public STUN/TURN server port for ingesting all media traffic into a Kubernetes cluster in a controlled and standards-compliant way.',
+  image: StunnerImage,
 };
 
 export const featuresData = {
-    title: 'Some Services We Offer',
+    title: 'Features',
     subtitle:
-      'With our app you can view the route of your order, from our local headquarters to the place where you are. Look for the app now!',
+      'STUNner exposes a standards-compliant STUN/TURN gateway for clients to access your virtualized WebRTC infrastructure running in Kubernetes, maintaining full browser compatibility and requiring minimal or no modification to your existing WebRTC codebase.',
     list: [
       {
         image: Feature1Img,
