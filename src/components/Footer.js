@@ -27,8 +27,6 @@ const Footer = () => {
             </div>
             {/* email */}
             <div className='font-light italic'>{email}</div>
-            {/* phone */}
-            <div className='font-light italic'>{phone}</div>
           </div>
           {/* lists */}
           <div className='flex flex-1 flex-col gap-y-14 xl:flex-row justify-between'>

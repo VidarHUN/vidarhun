@@ -1,5 +1,5 @@
 // import icons
-import { FaYoutube, FaInstagram, FaGithub } from 'react-icons/fa';
+import { FaYoutube, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { BsChatDotsFill } from 'react-icons/bs';
 
 // import images
@@ -150,9 +150,9 @@ export const testimonialsData = [
 
 export const aboutData = {
   image: AboutImg,
-  title: 'Find Out A Little More About Us',
+  title: 'About us',
   subtitle:
-      'We are a company dedicated to the distribution of products by delivery to your home or to the place where you are, with the best quality of delivery.',
+    'L7mp Technologies is a small team of researchers and practitioners working on projects related to integrating real-time communications workloads, especially WebRTC and cloud-gaming, into the cloud native ecosystem.'
 };
 
 export const membersData = [
@@ -190,16 +190,15 @@ export const membersData = [
 
 export const ctaData = {
     title: 'Contact Us From Here',
-    subtitle: 'Get limited 1 week free try our features!',
+    subtitle: 'Do you have questions? Great! Contact us and we will choose a date for a call.',
     btnText1: 'Learn more',
     btnText2: 'Request Demo',
 };
 
 export const footerData = {
     logo: LogoV2,
-    address: 'Product Texas, 234 Bokki Avenue Street BMW 99388',
-    email: 'info@producttexas.project',
-    phone: '1-232-7788 (Main)',
+    address: 'L7mp Technologies, Address',
+    email: 'info@l7mp.io',
     list1: [
       {
         name: 'Profile',
@@ -246,7 +245,7 @@ export const footerData = {
         href: '#',
       },
       {
-        icon: <FaInstagram />,
+        icon: <FaLinkedin />,
         href: '#',
       },
       {
@@ -257,6 +256,6 @@ export const footerData = {
   };
 
 export const copyrightData = {
-  text: '© Product Texas, 2022. All rights reserved. Company Registration Number: 09833888.',
+  text: '© L7mp Technologies, 2022. All rights reserved. Company Registration Number: 09833888.',
   icon: <BsChatDotsFill />,
 };
