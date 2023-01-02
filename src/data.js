@@ -11,6 +11,12 @@ import Feature4Img from '../src/assets/img/features/feature4.png';
 import Avatar1Img from '../src/assets/img/testimonials/avatar1.png';
 import Avatar2Img from '../src/assets/img/testimonials/avatar2.png';
 import Avatar3Img from '../src/assets/img/testimonials/avatar3.png';
+import RGaborImg from '../src/assets/img/members/rgabor.png';
+import MPeterImg from '../src/assets/img/members/mpeter.png';
+import LTamasImg from '../src/assets/img/members/ltamas.png';
+import NMateImg from '../src/assets/img/members/nmate.png';
+import VRichardImg from '../src/assets/img/members/vrichard.png';
+import DKornelImg from '../src/assets/img/members/dkornel.png';
 import LogoV2 from '../src/assets/img/logo-v2.png';
 import HeroImage from '../src/assets/img/hero-img.png';
 import StunnerImage from '../src/assets/img/stunner.png';
@@ -149,9 +155,38 @@ export const aboutData = {
       'We are a company dedicated to the distribution of products by delivery to your home or to the place where you are, with the best quality of delivery.',
 };
 
-export const membersData = {
-
-};
+export const membersData = [
+  {
+    image: RGaborImg,
+    name: 'Gábor Rétvári, Dsc',
+    title: 'CTO'
+  },
+  {
+    image: MPeterImg,
+    name: 'Péter Megyesi, PhD',
+    title: 'CEO'
+  },
+  {
+    image: LTamasImg,
+    name: 'Tamás Lévai, PhD',
+    title: 'Developer'
+  },
+  {
+    image: NMateImg,
+    name: 'Máté Nagy, PhD',
+    title: 'Developer'
+  },
+  {
+    image: VRichardImg,
+    name: 'Richárd Váradi, BSc',
+    title: 'Developer'
+  },
+  {
+    image: DKornelImg,
+    name: 'Kornél Dávid, BSc',
+    title: 'Developer'
+  }
+];
 
 export const ctaData = {
     title: 'Contact Us From Here',

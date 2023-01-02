@@ -31,7 +31,7 @@ const Features = () => {
                         // Features structure
                         const {image, bgImage, title, description, linkText, delay} = feature
                         return (
-                            <div className='w-full max-w-[530px] h-[360px] relative flex flex-col items-center justify-center xl:flex-row xl:justify-start  mx-auto' key={index}
+                            <div className='w-full max-w-[530px] h-[360px] relative flex flex-col items-center justify-center xl:flex-row xl:justify-start mx-auto' key={index}
                             // data-aos='zoom-in' data-aos-offset='100' data-aos-delay={delay}
                             >
                                 {/* Background images */}
