@@ -61,38 +61,56 @@ export const featuresData = {
       {
         image: Feature1Img,
         bgImage: Feature1BgImg,
-        title: 'Payment Done',
+        title: 'Integration with Kubernetes',
         description:
-          'Pay with a Visa or PayPal card and without much ado',
+          'Deploy STUNner in Kubernetes alongside any service mesh at any cloud provider.',
         linkText: 'Learn more',
         delay: '400',
       },
       {
         image: Feature2Img,
         bgImage: Feature2BgImg,
-        title: 'Find Your Product',
+        title: 'Expose a WebRTC media server',
         description:
-          'We offer sale of products through the Internet..',
+          'Forget the Kubernetes anti-patterns and expose your WebRTC service through only two ports with STUNner!',
         linkText: 'Learn more',
         delay: '700',
       },
       {
         image: Feature3Img,
         bgImage: Feature3BgImg,
-        title: 'Print Out',
+        title: 'NAT traversal without external services',
         description:
-          'Print out service gives you convenience if someday you need print data, just edit it all and just print it.',
+          'Forget the use of external STUN/TURN services.',
         linkText: 'Learn more',
         delay: '1000',
       },
       {
         image: Feature4Img,
         bgImage: Feature4BgImg,
-        title: 'Product Received',
+        title: 'Scale WebRTC',
         description:
-          'In our app you can see the delay time of your order...',
+          'Scale your media plane with a single command.',
         linkText: 'Learn more',
         delay: '1300',
+      },
+      {
+        image: Feature4Img,
+        bgImage: Feature4BgImg,
+        title: 'Secure',
+        description:
+          'With STUNner all media is received through a single ingress port that you can monitor.',
+        linkText: 'Learn more',
+        delay: '1600',
+      },
+      {
+        image: Feature4Img,
+        bgImage: Feature4BgImg,
+        title: 'Simple',
+        description:
+          'Written in Go using the well-known pion/webrtc framework.',
+        linkText: 'Learn more',
+        delay: '1900',
       },
     ],
 };
