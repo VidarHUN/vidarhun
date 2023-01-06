@@ -18,6 +18,9 @@
   a {
     @apply text-secondary font-semibold hover:text-accent-primary_hover transition;
   }
+  .nav {
+    @apply text-[24px];
+  }
   .btn {
     @apply text-lg h-[60px] px-[30px] rounded-full transition text-white;
   }

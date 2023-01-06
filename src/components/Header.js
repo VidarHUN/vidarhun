@@ -23,11 +23,11 @@ const Header = () => {
                     <div className='flex items-center gap-x-[120px]'>
                         {/* logo */}
                         <a href='#'>
-                            <img src={Logo} alt='' />
+                            <img src={Logo} alt='' width='100px' height='auto'/>
                         </a>
 
                         {/* nav / initially hidden / show on large screens  */}
-                        <div className='hidden lg:flex'>
+                        <div className='hidden lg:flex nav'>
                             <Nav />
                         </div>
                     </div>
