@@ -32,14 +32,10 @@ jobs:
       - name: Build with Next.js
         run: npx next build
 
-      - name: Check current directory
-        shell: bash
-        run: pwd
-
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
         with:
-          path: vidarhun/out/
+          path: /home/runner/work/vidarhun/vidarhun/out/
 
   deploy:
     environment:
